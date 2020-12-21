@@ -84,6 +84,7 @@ const Navigation = () => {
       selectedKey='key1'
       styles={navigationStyles}
     />
+    <Accounts />
   );
 };
 
