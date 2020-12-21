@@ -19,7 +19,7 @@ class Accounts extends React.Component {
         {
           this.state.accts.length == 0
             ? 'Loading ...'
-            : this.state.accts.map(user => (
+            : this.state.accts.map(acct => (
               <div key={acct.accountId}>
                 
                 <label>
