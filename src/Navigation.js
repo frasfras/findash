@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, initializeIcons } from '@fluentui/react';
+import Accounts from './Accounts';
 
 const navigationStyles = {
   root: {
