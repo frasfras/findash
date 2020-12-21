@@ -3,7 +3,7 @@ import React from 'react';
 class Accounts extends React.Component {
   constructor() {
     super();
-    this.state = { accts: [{"accountId":"01010OA00P207","accountName":"Jwalker","currency":"JPY","customerType":"PERSON","accountType":"CACC","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"},{"accountId":"01010OA00P208","accountName":"Jwalker","currency":"USD","customerType":"PERSON","accountType":"CACC","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"},{"accountId":"01010OA00P209","accountName":"Jwalker","currency":"USD","customerType":"PERSON","accountType":"SVGS","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"},{"accountId":"01010OA00P210","accountName":"Jwalker","currency":"GBP","customerType":"PERSON","accountType":"CACC","accountStatus":"ENABLED","accountOwnership":"SOLE","postingsRestriction":"NONE"}] };
+    this.state = { accts: [] };
   }
 
   componentDidMount() {
@@ -20,10 +20,10 @@ class Accounts extends React.Component {
           this.state.accts.length == 0
             ? 'Loading ...'
             : this.state.accts.map(user => (
-              <div key={accts.accountId}>
+              <div key={acct.accountId}>
                 
                 <label>
-                  {accts.accountName}
+                  {acct.accountName}
                 </label>
               </div>
             ))
