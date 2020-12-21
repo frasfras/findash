@@ -30,9 +30,9 @@ const links = [
         }
       },
       {
-        name: 'Settings',
+        name: 'Accounts',
         key: 'key2',
-        url: '/',
+        url: 'https://rideshare.onrender.com/listaccounts',
         iconProps: {
           iconName: 'PlayerSettings',
           styles: {
