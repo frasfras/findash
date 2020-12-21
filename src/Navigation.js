@@ -46,7 +46,7 @@ const links = [
       {
         name: 'Transfer',
         key: 'key3',
-        url: '/',
+        url: 'https://rideshare.onrender.com/getRef',
         iconProps: {
           iconName: 'SwitcherStartEnd',
           styles: {
@@ -60,7 +60,7 @@ const links = [
       {
         name: 'Stats',
         key: 'key4',
-        url: '/',
+        url: 'https://rideshare.onrender.com/getaccountbalance',
         iconProps: {
           iconName: 'StackedLineChart',
           styles: {
